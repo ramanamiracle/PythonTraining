@@ -8,11 +8,11 @@
 8) Exception handling
 9) Comprehensions & Lambda Expressions
 10) Iteration, Generators & Context Managers
-11) Decorators
+11) Closures & Decorators
 12) Logging
 13) Regular expressions
 14) Object Oriented
 15) Multi threading & Multi processing
-15) Database sql & nosql
-16) Flask
-17) Flask Rest
+16) Database sql & nosql
+17) Flask
+18) Flask Rest
