@@ -40,6 +40,7 @@ class Circle:
         """Self description for this Circle instance, used by print(), str() and repr()"""
         return 'Circle(radius={})'.format(self.radius)  # Call decorated getter
 
+
 if __name__ == '__main__':
     c1 = Circle(1.2)
     print(c1)               # Output: Circle(radius=1.200000)
