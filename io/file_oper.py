@@ -1,5 +1,5 @@
 f = open('sample.txt', 'r')
-w = open('out.txt',mode='w')
+w = open('out.txt', mode='w')
 
 for line in f.readlines():
     w.write(line)
