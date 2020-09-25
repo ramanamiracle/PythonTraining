@@ -7,11 +7,11 @@ square2 = lambda num: num * num
 # Another lambda
 add = lambda a,b: a + b
 
-# Executing the lambdas
+# Executing the lambdas_compre
 print(square2(7))
 print(add(3,10))
 
-# Notice that the square function has a name, but the two lambdas do not
+# Notice that the square function has a name, but the two lambdas_compre do not
 print(square.__name__)
 print(square2.__name__)
 print(add.__name__)

@@ -1,4 +1,4 @@
-from pack.greet import Sample
+from greet import Sample
 
 
 def print_msg(name):

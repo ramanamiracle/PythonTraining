@@ -5,6 +5,7 @@ This module contains the greeting message 'msg' and greeting function 'greet()'.
 """
 msg = "Hello"
 
+
 def greet(name):  # Function
     """Do greeting"""
     print('{}, {}'.format(msg, name))
