@@ -23,5 +23,5 @@ def fib_gen(max):
         count+=1
 
 
-for n in fib_gen(1000000):
-	print(n)
+for n in fib_gen(100):
+	print(n, end=" ")

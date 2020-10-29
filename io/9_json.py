@@ -13,4 +13,5 @@ j = json.dumps(['foo', {'bar': ('baz', None, 1.0, 2)}])
 # results in '["foo", {"bar": ["baz", null, 1.0, 2]}]'
 
 j = json.dumps(c.__dict__)
+print(type(j))
 # results in '{"name": "Charles", "breed": "Tabby"}'

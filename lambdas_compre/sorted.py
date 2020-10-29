@@ -24,3 +24,4 @@ songs = [
 
 # To sort songs by playcount
 sorted(songs, key=lambda s: s['playcount'])
+print(songs)

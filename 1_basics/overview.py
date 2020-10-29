@@ -10,9 +10,7 @@ def print_name(name):
 
     if a == 1:
         print("i am 1 ")
-
         b = 2
-
         if b > 1:
             print("i am > 1")
             c = 3

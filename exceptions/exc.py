@@ -2,6 +2,7 @@ class MyCustomError(Exception):
     """My custom exception"""
 
     def __init__(self, msg, code):
+        super().__init__(msg)
         """Constructor"""
         self.msg = msg
         self.code = code
