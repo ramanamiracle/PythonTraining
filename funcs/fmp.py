@@ -1,4 +1,3 @@
-
 l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # filter(func, iterable): Return an iterator yielding those items of iterable for which func(item) is True
@@ -20,6 +19,7 @@ new_lst = list(map(lambda x: x*x, filter(lambda x: x % 2 == 0, lst)))
 print(new_lst)
 
 # Combining filter-map-reduce to obtain an aggregate value
+
 from functools import reduce
 print(reduce(lambda x, y: x+y, map(lambda x: x*x, filter(lambda x: x % 2 == 0, lst))))
 

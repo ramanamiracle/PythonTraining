@@ -5,6 +5,7 @@ def be_polite(fn):
         print("Have a great day!")
     return wrapper
 
+
 @be_polite
 def greet():
     print("My name is Colt.")
@@ -12,7 +13,7 @@ def greet():
 
 @be_polite
 def rage():
-	print("I HATE YOU!")
+    print("I HATE YOU!")
 
 
 greet()

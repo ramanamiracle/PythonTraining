@@ -41,6 +41,7 @@ def my_add(x, y, z):
 
 # =====================================================================
 
+
 from functools import wraps
 
 
@@ -70,6 +71,7 @@ def my_add(x, y, z):
 # Same as
 # my_add = clamp_range(min, max)(my_add)
 # 'clamp_range(min, max)' returns '_decorator(func)'; apply 'my_add' as 'func'
+
 
 print(my_add(1, 2, 3))     # Output: 6
 print(my_add(-1, 5, 109))  # Output: 16 (1+5+10)

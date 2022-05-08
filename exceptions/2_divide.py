@@ -9,7 +9,7 @@
 # 	else:
 # 		print(f"{a} divided by {b} is {result}")
 
-def divide(a,b):
+def divide(a, b):
 	try:
 		result = a/b
 	except (ZeroDivisionError, TypeError) as err:
@@ -19,7 +19,6 @@ def divide(a,b):
 		print(f"{a} divided by {b} is {result}")
 
 
-
 # print(divide(1,2))
-print(divide(1,'a'))
-print(divide(1,0))
+print(divide(1, 'a'))
+print(divide(1, 0))

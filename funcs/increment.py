@@ -1,6 +1,7 @@
 # EXAMPLE OF A SCOPING PROBLEM:
 total = 0
 
+
 def increment():
 	total += 1
 	return total

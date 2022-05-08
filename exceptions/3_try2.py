@@ -14,6 +14,7 @@ while True:
 		break
 	finally:
 		print("RUNS NO MATTER WHAT!")
+
 print("REST OF GAME LOGIC RUNS!")
 
 # try:

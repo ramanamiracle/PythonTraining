@@ -8,11 +8,11 @@ users = [
 ]
 
 # To sort users by their username
-sorted(users,key=lambda user: user['username'])
+sorted(users, key=lambda user: user['username'])
 
 # Finding our most active users...
 # Sort users by number of tweets, descending
-sorted(users,key=lambda user: len(user["tweets"]), reverse=True)
+sorted(users, key=lambda user: len(user["tweets"]), reverse=True)
 
 # ANOTHER EXAMPLE DATA SET==================================
 songs = [

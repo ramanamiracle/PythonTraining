@@ -1,4 +1,4 @@
-class A():
+class A:
     def m(self):
         print('in Class A')
 

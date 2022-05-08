@@ -10,17 +10,36 @@ def shout(fn):
         return fn(*args, **kwargs).upper()
     return wrapper
 
-@shout
+
+# @shout
+# def greet(name):
+#     return f"Hi, I'm {name}."
+#
+#
+# @shout
+# def order(main, side):
+#     return f"Hi, I'd like the {main}, with a side of {side}, please."
+#
+#
+# @shout
+# def lol():
+#     return "lol"
+
 def greet(name):
     return f"Hi, I'm {name}."
 
-@shout
+
 def order(main, side):
     return f"Hi, I'd like the {main}, with a side of {side}, please."
 
-@shout
+
 def lol():
-	return "lol"
+    return "lol"
+
+
+greet = shout(greet)
+order = shout(order)
+lol = shout(lol)
 
 print(greet("todd"))
 print(order(side="burger", main="fries"))

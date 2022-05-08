@@ -7,7 +7,6 @@ def fib():
 
 
 result = fib()
-
 print(result)
 
 for _ in range(10):

@@ -1,16 +1,19 @@
 import re
+
+
 # Returns first instance of phone number pattern:
-def extract_phone(input):
+def extract_phone(input1):
 	phone_regex = re.compile(r'\b\d{3} \d{3}-\d{4}\b')
-	match = phone_regex.search(input)
+	match = phone_regex.search(input1)
 	if match:
 		return match.group()
 	return None
 
+
 # Returns all instances of phone number pattern in a list
-def extract_all_phones(input):
+def extract_all_phones(input1):
 	phone_regex = re.compile(r'\b\d{3} \d{3}-\d{4}\b')
-	return phone_regex.findall(input)
+	return phone_regex.findall(input1)
 
 # One way of checking if entire string is valid phone number:
 # def is_valid_phone(input):
@@ -20,16 +23,17 @@ def extract_all_phones(input):
 # 		return True
 # 	return False
 
+
 # Another way of doing the same thing, using the fullmatch method
-def is_valid_phone(input):
+def is_valid_phone(input1):
 	phone_regex = re.compile(r'\d{3} \d{3}-\d{4}')
-	match = phone_regex.fullmatch(input)
+	match = phone_regex.fullmatch(input1)
 	if match:
 		return True
 	return False
 
-# Calling our functions a bunch of times...
 
+# Calling our functions a bunch of times...
 print(extract_phone("my number is 432 567-8976"))
 print(extract_phone("my number is 432 567-897622"))
 print(extract_phone("432 567-8976 asdjhasd "))

@@ -1,15 +1,17 @@
 # A regular named function
-def square(num): return num * num
+def square(num):
+    return num * num
+
 
 # An equivalent lambda, saved to a variable
 square2 = lambda num: num * num
 
 # Another lambda
-add = lambda a,b: a + b
+add = lambda a, b: a + b
 
 # Executing the lambdas_compre
 print(square2(7))
-print(add(3,10))
+print(add(3, 10))
 
 # Notice that the square function has a name, but the two lambdas_compre do not
 print(square.__name__)

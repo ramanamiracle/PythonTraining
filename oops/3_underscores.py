@@ -2,9 +2,8 @@
 # __name
 # __name__
 
-
 class Person:
-	# Init is a "dunder" method
+    # Init is a "dunder" method
     def __init__(self):
         self.name = "Tony"
         # single underscore means "private" (sort of)

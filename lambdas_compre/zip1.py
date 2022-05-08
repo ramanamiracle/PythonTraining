@@ -1,11 +1,11 @@
-midterms = [80,91,78]
-finals = [98,89,53]
+midterms = [80, 91, 78]
+finals = [98, 89, 53]
 students = ['dan', 'ang', 'kate']
 
 
 # returns dict with {student:highest score} USING LIST COMP
 # {'dan': 98, 'ang': 91, 'kate': 78}
-final_grades = {t[0]:max(t[1], t[2]) for t in zip(students, midterms, finals)}
+final_grades = {t[0]: max(t[1], t[2]) for t in zip(students, midterms, finals)}
 
 
 # returns dict with {student:highest score} USING MAP+LAMBDA

@@ -1,4 +1,6 @@
 from functools import wraps
+
+
 def log_function_data(fn):
     @wraps(fn)
     def wrapper(*args, **kwargs):
@@ -10,9 +12,10 @@ def log_function_data(fn):
 
 
 @log_function_data
-def add(x,y):
+def add(x, y):
     """Adds two numbers together."""
     return x + y
+
 
 print(add.__doc__)
 print(add.__name__)

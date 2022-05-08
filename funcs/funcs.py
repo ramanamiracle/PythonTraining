@@ -29,7 +29,7 @@ def mul(a, b):
 
 a, b = fibon(10)
 
-value = mul(a , b)
+value = mul(a, b)
 
 
 def fun(name, age, nationality='India'):

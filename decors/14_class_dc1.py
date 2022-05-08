@@ -50,6 +50,7 @@ print("Square of number is:", get_square(195))
 
 from time import time
 
+
 class Timer:
     def __init__(self, func):
         self.function = func

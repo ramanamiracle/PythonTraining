@@ -1,4 +1,6 @@
 from copy import copy
+
+
 class Human:
 	def __init__(self, first, last, age):
 		self.first = first
@@ -22,7 +24,6 @@ class Human:
 		if isinstance(other, int):
 			return [copy(self) for i in range(other)]
 		return "CANT MULTIPLY!"
-	
 
 
 j = Human("Jenny", "Larsen", 47)

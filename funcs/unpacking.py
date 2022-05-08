@@ -7,7 +7,8 @@ def sum_all_values(*args):
 
 # sum_all_values(1,30,2,5,6)
 
-nums = [1,2,3,4,5,6]
+
+nums = [1, 2, 3, 4, 5, 6]
 sum_all_values(*nums)
 
 

@@ -1,6 +1,5 @@
 # A User class with both a class attribute
 class User:
-
 	active_users = 0
 
 	def __init__(self, first, last, age):
@@ -28,8 +27,6 @@ class User:
 	def birthday(self):
 		self.age += 1
 		return f"Happy {self.age}th, {self.first}"
-
-
 
 
 # print(user1.likes("Ice Cream"))

@@ -8,7 +8,7 @@ class User:
 
 	@classmethod
 	def from_string(cls, data_str):
-		first,last,age = data_str.split(",")
+		first, last, age = data_str.split(",")
 		return cls(first, last, int(age))
 
 	def __init__(self, first, last, age):
@@ -37,14 +37,13 @@ class User:
 		self.age += 1
 		return f"Happy {self.age}th, {self.first}"
 
-
-
 # user1 = User("Joe", "Smith", 68)
 # user2 = User("Blanca", "Lopez", 41)
 # print(User.display_active_users())
 # user1 = User("Joe", "Smith", 68)
 # user2 = User("Blanca", "Lopez", 41)
 # print(User.display_active_users())
+
 
 tom = User.from_string("Tom,Jones,89")
 print(tom.first)

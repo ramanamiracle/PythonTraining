@@ -17,4 +17,6 @@ def febon_rec(n):
     return nn
 
 
+print(febon(20))
 print(febon_rec(20))
+

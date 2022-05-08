@@ -9,7 +9,7 @@ def outer(a):      # Outer function
         print('inner() begins with arg =', b)
         y = 2  # Local variable of the inner function
         print('a = {}, x = {}, y = {}'.format(a, x, y))
-            # Have read-access to outer function's attributes
+        # Have read-access to outer function's attributes
         print('inner() ends')
         return y
 

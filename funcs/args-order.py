@@ -1,6 +1,9 @@
+
 def display_info(a, b, *args, instructor="Colt", **kwargs):
-  # return [a, b, args, instructor, kwargs]
-  print(type(args))
+    # return [a, b, args, instructor, kwargs]
+    print(type(args))
+    print(args)
+
 
 print(display_info(1, 2, 3, last_name="Steele", job="Instructor"))
 
@@ -10,4 +13,4 @@ print(display_info(1, 2, 3, last_name="Steele", job="Instructor"))
 # instructor - "Colt"
 # kwargs - {'last_name': "Steele", "job": "Instructor"}
 
-[1, 2, (3,), 'Colt', {'last_name': 'Steele', 'job': 'Instructor'}]
+# [1, 2, (3,), 'Colt', {'last_name': 'Steele', 'job': 'Instructor'}]

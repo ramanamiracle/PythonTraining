@@ -21,8 +21,7 @@ class Cat(Animal):
 		print(f"{self.name} plays with {self.toy}")
 
 
-
-blue = Cat("Blue","Scottish Fold", "String")
+blue = Cat("Blue", "Scottish Fold", "String")
 blue.play()
 
 

@@ -3,6 +3,7 @@
 """circle.py: The circle module, which defines the Circle class"""
 from math import pi
 
+
 class Circle:
     """A Circle instance models a circle with a radius"""
 

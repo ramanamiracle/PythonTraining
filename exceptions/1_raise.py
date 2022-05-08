@@ -6,5 +6,6 @@ def colorize(text, color):
 		raise ValueError("color is invalid color")
 	print(f"Printed {text} in {color}")
 
+
 colorize([], 'cyan')
 # colorize(34, "red")

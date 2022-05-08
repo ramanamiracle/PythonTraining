@@ -1,4 +1,4 @@
-nums = [1,2,3,4,5,6,7,8,9,10]
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # I want 'n' for each 'n' in nums
 my_list = []
@@ -49,7 +49,6 @@ heros = ['Batman', 'Superman', 'Spiderman', 'Wolverine', 'Deadpool']
 # print my_dict
 
 
-
 # If name not equal to Peter
 
 # Set Comprehensions
@@ -62,7 +61,7 @@ heros = ['Batman', 'Superman', 'Spiderman', 'Wolverine', 'Deadpool']
 
 # Generator Expressions
 # I want to yield 'n*n' for each 'n' in nums
-nums = [1,2,3,4,5,6,7,8,9,10]
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # def gen_func(nums):
 #     for n in nums:
